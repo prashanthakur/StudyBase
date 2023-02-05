@@ -1,0 +1,87 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "expertise": "Web Development"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "expertise": "Mobile Development"
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "expertise": "Machine Learning"
+  },
+  {
+    "name": "Emma Watson",
+    "email": "emma.watson@example.com",
+    "expertise": "Data Science"
+  },
+  {
+    "name": "Michael Jordan",
+    "email": "michael.jordan@example.com",
+    "expertise": "Sports Coaching"
+  },
+  {
+    "name": "Elon Musk",
+    "email": "elon.musk@example.com",
+    "expertise": "Entrepreneurship"
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "email": "mark.zuckerberg@example.com",
+    "expertise": "Social Media"
+  },
+  {
+    "name": "Steve Jobs",
+    "email": "steve.jobs@example.com",
+    "expertise": "Product Design"
+  },
+  {
+    "name": "Bill Gates",
+    "email": "bill.gates@example.com",
+    "expertise": "Technology"
+  },
+  {
+    "name": "Oprah Winfrey",
+    "email": "oprah.winfrey@example.com",
+    "expertise": "Media"
+  },
+  {
+    "name": "Jack Ma",
+    "email": "jack.ma@example.com",
+    "expertise": "E-commerce"
+  },
+  {
+    "name": "Warren Buffett",
+    "email": "warren.buffett@example.com",
+    "expertise": "Investing"
+  },
+  {
+    "name": "Richard Branson",
+    "email": "richard.branson@example.com",
+    "expertise": "Entrepreneurship"
+  },
+  {
+    "name": "Jeff Bezos",
+    "email": "jeff.bezos@example.com",
+    "expertise": "E-commerce"
+  },
+  {
+    "name": "Larry Page",
+    "email": "larry.page@example.com",
+    "expertise": "Search Engine"
+  },
+  {
+    "name": "Sergey Brin",
+    "email": "sergey.brin@example.com",
+    "expertise": "Search Engine"
+  },
+  {
+    "name": "Sundar Pichai",
+    "email": "sundar.pichai@example.com",
+    "expertise": "Technology"
+  }
+]
