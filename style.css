@@ -1,0 +1,49 @@
+#neubar {
+    margin-top: 20px;
+    background:linear-gradient(145deg,#d0d1d3, #82a4c9,#d0d1d3,#2C74B3);;
+    width:70%;
+    margin-left: 15%;
+    scroll-behavior: smooth;
+    position: fixed;
+  }
+   
+  .nav-item:hover {
+    border-radius: 6px;
+    background: linear-gradient(145deg,#8093aa, #144272);
+    box-shadow:  4px 4px 8px #0A2647,-4px -4px 8px #144272;
+    
+  }
+
+  .nav-item a{
+    font-weight: 700;
+    color: black !important;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+    font-weight: 700;
+  }
+  #neubar a {
+   
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545; 
+    object-fit:contain;
+    mix-blend-mode: color-burn;
+    font-weight: 700;
+
+  }
+
+  .nav-backgorund{
+    background-image: linear-gradient(45deg,#301E67,#5B8FB9,#301E67);
+    width: 100%;
+    height: 600px;
+  }
+ 
