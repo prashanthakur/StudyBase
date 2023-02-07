@@ -3,7 +3,6 @@
     background:linear-gradient(90deg,#d0d1d3, #82a4c9,#d0d1d3,#2C74B3);;
     width:70%;
     margin-left: 15%;
-    position: fixed;
     border-radius: 30px; 
   }
    
@@ -35,6 +34,7 @@
   a.navbar-brand {
     color: #454545; 
     font-weight: 700;
+
  }
 
   .navbar-brand p{
@@ -46,10 +46,8 @@
   }
 
   #upper-main{
-    background-image: linear-gradient(120deg,#301E67,#5B8FB9,#301E67);
-    height: 650px;
-    width:101%;
-
+    background-image: linear-gradient(#301E67,#5B8FB9,#301E67);
+    height: 690px ;
   }
  
   #main-head{
@@ -79,19 +77,20 @@
 
   .first{
     margin-left: 150px;
-    mix-blend-mode:hard-light;
     display: block;
     margin-top: 15px; 
-    box-shadow: 0px 1px 10px darkblue; 
+    box-shadow: 0px 1px 10px darkblue;
+    border-radius: 15px !important; 
   }
 
   .second{
     margin-left: 125px;
     margin-top: 30px;
-    mix-blend-mode:hard-light;
     }
   .second .btn{
     box-shadow: 0px 1px 10px darkgreen;
+    
+    border-radius: 12px !important;
   }  
 
   .first a{
@@ -134,7 +133,7 @@
   border-radius: 50px !important;
   margin-top: 70px;
   height: 350px;
-  margin-left: 160px;
+  margin-left: 100px;
   box-shadow: 2px,4px,8px #8093aa;
   object-fit: contain;
   mix-blend-mode: color-burn;
@@ -144,7 +143,7 @@
 #main-pic #img2{
   border-radius: 50px !important;
   margin-top: -440px;
-  margin-left: 380px;
+  margin-left: 300px;
   width: 290px;
   box-shadow: 2px,4px,8px #8093aa;
   object-fit: contain;
@@ -153,28 +152,33 @@
 
      /*Services Part*/
 
-     .service-sec{
-      margin-top: -25px;
-        background-color: #ddd9d9;
+     #service-sec{
+        margin-top: -25px;
+        background-color: #f5f5ff;
+        
+        border-radius: 10px;
      }
 
      .tit{
       font-weight: 900;
-      text-shadow: 0px 1px 10px whitesmoke;
+      text-shadow: 0px 1px 1px black;
       margin-top: 35px;
+      color: #5B8FB9;
+      text-decoration:overline;
+      
      }
      .section-title p{
-      font-size: 20px;
-      font-weight: 500;
-      color: grey;
+      font-size: 22px;
+      font-weight: 600;
+      color: black !important;
+
      }
 
 
     .section-serivces{
       margin-top: 25px;
       height: 900px;
-      width: 101%;
-
+      
       background-color: linear-gradient(120deg,grey,white,grey);
     }   
 
@@ -382,5 +386,294 @@
           fill: var(--uim-color, currentColor);
       }
 
+                 /*FAQ Question*/
+      #faq {
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px;
+        text-shadow: 0px 1px 1px black;
+        height: 1080px;
+     }
+      
+      .faq__title {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #5B8FB9;
+        text-decoration: overline;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+      
+      .faq__subtitle {
+        font-size: 20px;
+        font-weight: 650 !important;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      
+      .faq__question {
+        margin: 5px;
+        background-color: #a9c4e2;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        width: 70%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 40px;
+        transition: all 0.2s ease;
+        height: 80px;
+      }
+      
+      .faq__question:after {
+        content: "\02795";
+        position: absolute;
+        left: 10px;
+        font-size: 14px;
+      }
+      
+      .faq__question_active:after {
+        content: "\2796";
+        color: white;
+        position: absolute;
+        left: 10px;
+        font-size: 14px;
+      }
+      
+      .faq__subtitle {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.55;
+        padding-top: 8px;
+        padding-bottom: 10px;
+      }
+      
+      .faq__panel {
+        display: none;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.5;
+        padding-left: 18%;
+        max-width: 70%;
+        overflow: hidden;
+        font-weight: 300;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .faq__question:hover {
+        background-color: #8093aa;
+      }
+      
+      .faq__panel_active {
+        display: block;
+      }
+                /*GEt in touch*/
+      .get-in-touch {
+        width: 40%;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px #999;
+        margin-left: 430px;
+        margin-top: 25px;
+      }
+      
+      .get-in-touch i {
+        font-size: 50px;
+        color: #193e68;
+        margin-bottom: 20px;
+        font-weight: 800;
+      }
+      
+      .get-in-touch h3 {
+        font-size: 24px;
+        color: #193e68;
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      
+      .get-in-touch p {
+        font-size: 18px;
+        color: #333;
+        margin-bottom: 20px;
+        font-weight: 400;
+      }
+      
+      .get-in-touch a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #a9c4e2;
+        color: #193e68;
+        border-radius: 25px;
+        text-decoration: none;
+        font-weight:300;
+        font-size: 17px;
+      }
+      
 
-   
+      /*Footer part*/
+      footer {
+        background-color: #301E67;
+        color: #fff;
+        padding: 30px 0;
+      }
+      
+      footer h3 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      footer p {
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      footer ul {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+      
+      footer li a {
+        color: #fff;
+        text-decoration: none; 
+        text-align: center;
+        font-size: 18px;
+      }
+
+      .linkthasc li{
+          margin-left: 150px;
+      }
+
+      .follow-us {
+        text-align: center;
+      }
+      
+      .follow-us h3 {
+        margin-bottom: 20px;
+        font-size: 25px;
+      }
+      
+      .follow-us ul {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .follow-us li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      
+      .follow-us a {
+        color:white;
+        font-weight: 900;
+        display: block;
+        font-size: 18px;
+        text-decoration: none;
+      }
+      
+      .follow-us a:hover {
+        color: #0077C9;
+      }
+      
+      
+     .copyright {
+        padding: 10px 0 0px 50px;
+        text-align: center;
+      }
+      
+      .copyright p {
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: -25px;
+       
+      }
+
+      .copyright img{
+        aspect-ratio: 3/2;
+        object-fit: contain;
+        mix-blend-mode: color-burn;
+        margin: 15px;
+        height: 15%;
+        width: 15%; 
+        margin-left: 50px;
+        margin-top: -10px;     
+      }
+
+
+
+      /*About Us*/
+
+      .explore{
+        margin-left: 150px;
+        display: block;
+        margin-top: 15px; 
+        box-shadow: 0px 1px 10px #193e68;
+        border-radius: 20px !important;
+        background-color: #193e68 !important; 
+      }
+
+      .explore a{
+        font-size: 25px !important;
+        text-decoration: none !important;
+        color: white !important;
+        font-weight: 600;
+      }
+
+      .explore:hover{
+        background-color: white !important;
+        border: 2px solid #193e68;
+        color: #193e68 !important; 
+      }
+
+      .explore a:hover{
+        color:#193e68 !important;
+      }
+      #about-us {
+        padding: 80px 0;
+        background-color: #f7f7f7;
+        text-shadow: 0px 1px 1px black;
+
+      }
+      
+
+      #about-us h2 {
+        text-decoration: overline;
+        margin-bottom: 25px;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #5B8FB9;
+        font-weight: 700;
+        margin-top: 20px;
+
+      }
+      
+      #about-us p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 100;
+      }
+      
+      #about-us img {
+        max-width: 100%;
+        border-radius: 20px !important;
+        margin-top: 70px;
+        margin-left: -45px;
+        box-shadow: 2px 4px 8px #8093aa;
+ 
+      }
