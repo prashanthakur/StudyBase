@@ -1,53 +1,38 @@
 
-#neubar {
-    background:linear-gradient(90deg,#d0d1d3, #82a4c9,#d0d1d3,#2C74B3);;
-    width:70%;
-    margin-left: 15%;
-    border-radius: 30px; 
-  }
-   
-  .nav-item:hover {
-    border-radius: 6px;
-    background: linear-gradient(90deg,#8093aa, #8799ac);
-  }
+.row{
+  width: 100% !important;
+}
 
-  .nav-item a{
-    font-family:var(--font-family-display,"Charlie Display",sans-serif);
-    font-weight: 600;
-    color: black !important;
-  }
-  #neubar .dropdown-menu a:hover {
-    color: #8093aa;
-  }
-  #neubar .nav-item {
-    margin : auto 4px;
-    font-weight: 700;
-  }
-  #neubar a {
-   
-    padding-left:12px;
-    padding-right:12px;
-  }
-  #neubar .dropdown-menu {
-    background : #545454
-  }
-  a.navbar-brand {
-    color: #454545; 
-    font-weight: 700;
+.m-2{
+  border-radius: 10px !important;
+  width: 100% !important;
+  padding-left: 0.5rem !important;
+  
+}
 
- }
+.navbar{
+  padding-right: 0.5rem;
+  padding-left: 3rem !important;
+  padding-bottom: 0.5rem;
+}
 
-  .navbar-brand p{
+.nav-item{
+  font-size: 1rem;
+  color: white !important;
+}
+#dashboard{
+  font-size: 20px;
+  font-weight: 700;  
+  text-decoration: overline;
+}
 
-    position: absolute; 
-    margin-top: -18px;
-    font-size: 25px;
+.nav-item:hover{
+  color: #333 !important;
+}
 
-  }
-
-  #upper-main{
+ #upper-main{
     background-image: linear-gradient(#301E67,#5B8FB9,#301E67);
-    height: 690px ;
+    width: 100% !important;
   }
  
   #main-head{
@@ -84,8 +69,9 @@
   }
 
   .second{
-    margin-left: 125px;
-    margin-top: 30px;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     }
   .second .btn{
     box-shadow: 0px 1px 10px darkgreen;
@@ -209,7 +195,7 @@
       }
       
       .service-container .number-icon .number {
-        position: absolute;
+
         top: 0;
         right: 70px;
         left: 0;
@@ -240,7 +226,7 @@
       }
       
       .service-container.hover-bg .smooth-icon {
-        position: absolute;
+
         bottom: -40px;
         right: -20px;
         font-size: 60px;
@@ -370,7 +356,7 @@
       
       .service-wrapper:hover .big-icon {
         z-index: -1;
-        opacity: 0.1;
+        opacity: 0.2;
         font-size: 160px;
       }
       
@@ -392,7 +378,7 @@
         text-align: center;
         border-radius: 10px;
         text-shadow: 0px 1px 1px black;
-        height: 1080px;
+        margin-bottom: 20px;
      }
       
       .faq__title {
@@ -402,10 +388,11 @@
         text-decoration: overline;
         font-weight: 700;
         margin-top: 20px;
+        line-height: 1.5;
       }
       
       .faq__subtitle {
-        font-size: 20px;
+        font-size: 23px !important;
         font-weight: 650 !important;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
@@ -421,13 +408,15 @@
         border: none;
         outline: none;
         transition: 0.4s;
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 400;
         line-height: 1.5;
         position: relative;
         padding-left: 40px;
         transition: all 0.2s ease;
-        height: 80px;
+        height: 100px;
+        font-family: 'Times New Roman', Times, serif;
+
       }
       
       .faq__question:after {
@@ -455,14 +444,14 @@
       
       .faq__panel {
         display: none;
+
         text-align: left;
         font-size: 18px;
         line-height: 1.5;
         padding-left: 18%;
         max-width: 70%;
         overflow: hidden;
-        font-weight: 300;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 50 !important;
       }
       
       .faq__question:hover {
@@ -474,14 +463,15 @@
       }
                 /*GEt in touch*/
       .get-in-touch {
-        width: 40%;
+        width: 50%;
         background-color: #f2f2f2;
         text-align: center;
         padding: 20px;
         border-radius: 10px;
         box-shadow: 2px 2px 10px #999;
-        margin-left: 430px;
+        margin-left: 25%;
         margin-top: 25px;
+        display: block;
       }
       
       .get-in-touch i {
@@ -652,7 +642,8 @@
 
       #about-us h2 {
         text-decoration: overline;
-        margin-bottom: 25px;
+        text-align: center;        
+        margin-bottom: 45px;
         font-size: 30px;
         text-transform: uppercase;
         color: #5B8FB9;
@@ -666,13 +657,15 @@
         line-height: 1.5;
         margin-bottom: 25px;
         font-family:Georgia, 'Times New Roman', Times, serif;
-        font-weight: 100;
+      }
+      #leftsec{
+        margin-top: 20px;
       }
       
       #about-us img {
         max-width: 100%;
         border-radius: 20px !important;
-        margin-top: 70px;
+        margin-top: 20px;
         margin-left: -45px;
         box-shadow: 2px 4px 8px #8093aa;
  
